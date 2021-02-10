@@ -1,0 +1,10 @@
+<h1> fuction(discriminant)</h1>
+<?php
+  function discriminant($a, $b, $c){
+    return $b*$b-4*$a*$c;
+
+  }
+ $d=discriminant(3,-14,-5);
+ echo "D=".$d;
+
+?>
